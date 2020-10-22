@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="collections" />
+        <module name="db_connections" />
         <module name="thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="collections" target="1.5" />
-      <module name="thread" target="1.8" />
+      <module name="db_connections" target="1.5" />
+      <module name="thread" target="1.5" />
       <module name="zgq_repository" target="1.8" />
     </bytecodeTargetLevel>
   </component>

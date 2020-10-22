@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/collections/pom.xml" />
         <option value="$PROJECT_DIR$/thread/pom.xml" />
+        <option value="$PROJECT_DIR$/db_connections/pom.xml" />
       </list>
     </option>
   </component>
