@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithms/algorithms.iml" filepath="$PROJECT_DIR$/algorithms/algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/db_connections/db_connections.iml" filepath="$PROJECT_DIR$/db_connections/db_connections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design_modes/design_modes.iml" filepath="$PROJECT_DIR$/design_modes/design_modes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall/mall.iml" filepath="$PROJECT_DIR$/mall/mall.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/zgq_repository.iml" filepath="$PROJECT_DIR$/.idea/zgq_repository.iml" />
     </modules>

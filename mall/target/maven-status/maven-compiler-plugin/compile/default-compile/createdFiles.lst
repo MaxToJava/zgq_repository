@@ -1,0 +1,13 @@
+com\zgq\mall\common\api\IErrorCode.class
+com\zgq\mall\model\PmsBrandExample.class
+com\zgq\mall\model\PmsBrand.class
+com\zgq\mall\common\api\ResultCode.class
+com\zgq\mall\service\ProductInfoService.class
+com\zgq\mall\MallApplication.class
+com\zgq\mall\model\PmsBrandExample$Criteria.class
+com\zgq\mall\service\impl\ProductInfoServiceImpl.class
+com\zgq\mall\model\PmsBrandExample$Criterion.class
+com\zgq\mall\model\PmsBrandExample$GeneratedCriteria.class
+com\zgq\mall\common\api\CommonResult.class
+com\zgq\mall\controller\ProductInfoController.class
+com\zgq\mall\mapper\PmsBrandMapper.class

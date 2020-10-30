@@ -1,5 +1,7 @@
 package com.zgq.db.connections;
 
+import com.zgq.db.connpool.JdbcPool;
+
 import java.sql.*;
 
 /**
@@ -10,6 +12,7 @@ import java.sql.*;
  */
 public class DbManager {
 
+/*
     static {
         try {
             //数据库驱动
@@ -24,6 +27,7 @@ public class DbManager {
             e.printStackTrace();
         }
     }
+*/
 
     private DbManager() {
 
@@ -32,11 +36,16 @@ public class DbManager {
     public static void main(String[] args) {
         //尝试多个sql语句批量执行，发现不行
         String sql = "insert into course values(?,?);";
-        Connection conn = getConnection();
+        Connection conn = null;
+        try {
+            conn = new JdbcPool().getConnection();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         Statement statement = getStatement(conn);
         PreparedStatement preparedStatement = getPreparedStatement(conn, sql);
         try {
-            for(int i=1;i<=3;i++){
+            for(int i=4;i<=9;i++){
                 preparedStatement.setInt(1,i);
                 preparedStatement.setString(2,"科目"+i);
                 preparedStatement.addBatch();
